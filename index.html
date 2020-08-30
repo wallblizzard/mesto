@@ -8,7 +8,7 @@
   </head>
   <body class="page">
     <div class="page__container">
-      <header class="header">
+      <header class="header page__header">
         <a href="#" class="header__link">
           <img
             src="./images/header-logo.svg"
@@ -17,7 +17,25 @@
           />
         </a>
       </header>
-      <main class="main"></main>
+      <main class="main page__main">
+        <section class="about page__section-about">
+          <div class="about__profile">
+            <img
+              src="./images/Jacques.jpg"
+              alt="Жак-Ив Кусто"
+              class="about__image"
+            />
+            <div class="about__info">
+              <h2 class="about__title">
+                Жак-Ив Кусто
+                <button class="about__profile-edit"></button>
+              </h2>
+              <p class="about__subtitle">Исследователь океана</p>
+            </div>
+          </div>
+          <button class="about__add"></button>
+        </section>
+      </main>
       <footer class="footer"></footer>
     </div>
     <script class="script.js"></script>

@@ -1,6 +1,5 @@
 .header {
-  max-width: 882px;
-  margin: 0 auto;
+  margin-bottom: 36.25px;
   border-bottom: 1px solid #545454;
   opacity: 0.7;
 }
@@ -9,5 +8,6 @@
   .header {
     width: calc(100% + 38px);
     margin-left: -19px;
+    margin-bottom: 38.25px;
   }
 }

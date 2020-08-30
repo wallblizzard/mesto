@@ -1,0 +1,11 @@
+.about__image {
+  width: 120px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .about__image {
+    align-self: center;
+    margin-bottom: 10.25px;
+  }
+}

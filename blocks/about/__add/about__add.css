@@ -1,0 +1,32 @@
+.about__add {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  background-color: black;
+  outline-style: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.about__add::before {
+  content: "";
+  position: absolute;
+  background: url(../../../images/plus.svg) no-repeat;
+  width: 22px;
+  height: 22px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about__add:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+  .about__add {
+    width: 282px;
+  }
+}
