@@ -1,0 +1,9 @@
+.page__section-cards {
+  margin-bottom: 66px;
+}
+
+@media screen and (max-width: 640px) {
+  .page__section-cards {
+    margin-bottom: 48px;
+  }
+}

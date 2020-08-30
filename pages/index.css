@@ -8,6 +8,9 @@
 @import url(../blocks/page/__container/page__container.css);
 @import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/page/__main/page__main.css);
+@import url(../blocks/page/__section-about/page__section-about.css);
+@import url(../blocks/page/__section-cards/page__section-cards.css);
+@import url(../blocks/page/__footer/page__footer.css);
 /* global style end */
 
 /* header */
@@ -26,3 +29,20 @@
 @import url(../blocks/about/__subtitle/about__subtitle.css);
 @import url(../blocks/about/__add/about__add.css);
 /* about end */
+
+/* cards */
+@import url(../blocks/cards/cards.css);
+/* cards end */
+
+/* card */
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__titel/card__titel.css);
+@import url(../blocks/card/__like/card__like.css);
+/* card end */
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+/* footer end */
