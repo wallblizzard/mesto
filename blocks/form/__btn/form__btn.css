@@ -1,0 +1,14 @@
+.form__btn {
+  outline: 0;
+  border: 0;
+  background-color: #000;
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  width: 100%;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 13.66px 0 18.49px 0;
+}

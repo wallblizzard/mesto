@@ -1,0 +1,22 @@
+.form__item {
+  margin-bottom: 29.74px;
+  padding: 13.26px 0 13.26px 6px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #000;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.form__item:focus {
+  color: #000;
+  outline-color: #00bfff;
+  box-shadow: 0 0 5px #00bfff;
+}
+
+.form__item:last-child {
+  margin-bottom: 0;
+}

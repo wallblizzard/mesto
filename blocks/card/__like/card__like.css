@@ -3,8 +3,9 @@
   width: 20.76px;
   height: 18.13px;
   transition: opacity 0.3s ease;
+  padding-right: 10px;
 }
 
 .card__like:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }

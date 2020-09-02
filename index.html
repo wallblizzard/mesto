@@ -26,10 +26,10 @@
               class="about__image"
             />
             <div class="about__info">
-              <h2 class="about__title">
-                Жак-Ив Кусто
+              <div class="about__name">
+                <h1 class="about__title">Жак-Ив Кусто</h1>
                 <button class="about__profile-edit"></button>
-              </h2>
+              </div>
               <p class="about__subtitle">Исследователь океана</p>
             </div>
           </div>
@@ -90,7 +90,7 @@
               alt="Карачаево-Черкесия"
             />
             <div class="card__text">
-              <h2 class="card__titel">Карачаево-Ч...</h2>
+              <h2 class="card__titel">Карачаево-Черкесия</h2>
               <a href="#" class="card__like"></a>
             </div>
           </div>
@@ -100,6 +100,33 @@
         <p class="footer__copyright">&copy 2020 Mesto Russia</p>
       </footer>
     </div>
-    <script class="script.js"></script>
+    <section class="popup">
+      <div class="popup__container">
+        <h2 class="popup__titel">Редактировать профиль</h2>
+        <button class="popup__close"></button>
+        <form class="form">
+          <fieldset class="form__container">
+            <input
+              type="text"
+              value="Жак-Ив Кусто"
+              class="form__item form__item_name_input"
+              placeholder="Имя"
+              maxlength="20"
+            />
+            <input
+              type="text"
+              value="Исследователь океана"
+              class="form__item form__item_job_input"
+              placeholder=""
+              maxlength="100"
+            />
+          </fieldset>
+          <fieldset class="form__container">
+            <button class="form__btn" type="submit">Сохранить</button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
   </body>
 </html>
