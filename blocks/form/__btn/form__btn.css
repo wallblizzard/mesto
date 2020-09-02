@@ -11,6 +11,11 @@
   border-radius: 2px;
   cursor: pointer;
   padding: 13px 0 18px 0;
+  transition: opacity 0.3s ease;
+}
+
+.form__btn:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 640px) {
