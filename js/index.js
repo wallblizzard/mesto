@@ -29,11 +29,11 @@ function formSubmitHandler(evt) {
   let name = nameInput.value;
   let job = jobInput.value;
   // Выберите элементы, куда должны быть вставлены значения полей
-  let profileName = document.querySelector(".about__title");
-  let profileJob = document.querySelector(".about__subtitle");
+  let aboutName = document.querySelector(".about__title");
+  let aboutJob = document.querySelector(".about__subtitle");
   // Вставьте новые значения с помощью textContent
-  profileName.textContent = name;
-  profileJob.textContent = job;
+  aboutName.textContent = name;
+  aboutJob.textContent = job;
 }
 // Прикрепляем обработчик к форме:
 formBtnSave.addEventListener("click", function () {

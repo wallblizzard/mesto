@@ -14,3 +14,11 @@
 .popup__close:hover {
   opacity: 0.6;
 }
+
+@media screen and (max-width: 640px) {
+  .popup__close {
+    background: url(../../../images/plus.svg) no-repeat;
+    transform: rotate(45deg);
+    top: -15px;
+  }
+}

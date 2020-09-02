@@ -1,6 +1,6 @@
 .form__item {
-  margin-bottom: 29.74px;
-  padding: 13.26px 0 13.26px 6px;
+  margin-bottom: 30px;
+  padding: 13px 0 13px 6px;
   font-family: "Inter", Arial, sans-serif;
   font-weight: normal;
   font-size: 14px;
@@ -19,4 +19,11 @@
 
 .form__item:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .form__item {
+    font-size: 12px;
+    margin-bottom: 18px;
+  }
 }
