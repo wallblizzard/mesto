@@ -1,14 +1,8 @@
 .form__container {
   display: block;
   border: none;
-  margin: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  padding-block-start: 0;
-  padding-inline-start: 0;
-  padding-inline-end: 0;
-  padding-block-end: 0;
-  margin-bottom: 48px;
+  margin: 0 0 48px 0;
+  padding: 0;
 }
 
 .form__container:last-child {
