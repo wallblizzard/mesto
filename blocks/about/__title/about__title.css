@@ -15,3 +15,9 @@
     line-height: 2.07;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .about__title {
+    max-width: 220px;
+  }
+}
