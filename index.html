@@ -136,7 +136,7 @@
     </div>
     <div class="popup">
       <div class="popup__container">
-        <h2 class="popup__title">Редактировать профиль</h2>
+        <h3 class="popup__title">Редактировать профиль</h3>
         <button
           class="popup__close"
           type="button"
@@ -145,8 +145,8 @@
         <form class="form" method="POST" name="myForm">
           <fieldset class="form__container">
             <input
+              autocomplete="off"
               type="text"
-              value
               class="form__item form__item_type_name"
               placeholder="Имя"
               name="name"
@@ -154,7 +154,6 @@
             />
             <input
               type="text"
-              value
               class="form__item form__item_type_profession"
               placeholder="О себе"
               name="profession"

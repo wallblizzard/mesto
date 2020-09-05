@@ -1,7 +1,6 @@
 let buttonEditProfile = document.querySelector('.about__profile-edit');
 let popupWindow = document.querySelector('.popup');
 let buttonClosePopup = document.querySelector('.popup__close');
-let buttonSubmitPopup = document.querySelector('.form__btn');
 
 // Находим форму в DOM
 let formElement = document.querySelector('.form');
@@ -14,6 +13,8 @@ let aboutProfession = document.querySelector('.about__subtitle');
 
 function popupOpen() {
   popupWindow.classList.add('popup_opened');
+  nameInput.value = aboutName.textContent;
+  professionInput.value = aboutProfession.textContent;
 }
 
 function popupClose() {
@@ -32,17 +33,9 @@ function formSubmitHandler(evt) {
   popupClose();
 }
 
-function listenEditButton() {
-  nameInput.value = aboutName.textContent;
-  professionInput.value = aboutProfession.textContent;
-}
-
 buttonEditProfile.addEventListener('click', popupOpen);
 buttonClosePopup.addEventListener('click', popupClose);
 
 // Прикрепляем обработчик к форме:
-buttonSubmitPopup.addEventListener('click', formSubmitHandler);
 // он будет следить за событием “submit” - «отправка»
 formElement.addEventListener('submit', formSubmitHandler);
-
-buttonEditProfile.addEventListener('click', listenEditButton);
