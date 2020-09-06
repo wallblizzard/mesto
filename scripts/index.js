@@ -12,9 +12,9 @@ let aboutName = document.querySelector('.about__title');
 let aboutProfession = document.querySelector('.about__subtitle');
 
 function popupOpen() {
-  popupWindow.classList.add('popup_opened');
   nameInput.value = aboutName.textContent;
   professionInput.value = aboutProfession.textContent;
+  popupWindow.classList.add('popup_opened');
 }
 
 function popupClose() {
